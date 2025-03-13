@@ -1,7 +1,7 @@
 import gradio as gr
 
-def greet(name, intensity):
-    return "Hello, " + name + "!" * int(intensity)
+def greet(nombre, intensidad):
+    return "Hello, " + nombre + "!" * int(intensidad)
 
 demo = gr.Interface(
     fn=greet,
